@@ -84,7 +84,7 @@ const products = [
         price: 12500,
         category: 'snack',
         description: 'Piscok Isi 5 Goreng dengan isian pisang dan cokelat yang melimpah',
-        image: 'file:///C:/Users/Lenovo/Downloads/Merah%20dan%20Kuning%20Modern%20Nasi%20Goreng%20Promosi%20Instagram%20Post%20(6).jpg',
+        image: 'https://ibb.co.com/MDwrMzjc',
         rating: 5.0
     },
     {
@@ -93,7 +93,7 @@ const products = [
         price: 20000,
         category: 'snack',
         description: 'Sosis solo Isi 5 Goreng dengan isian daging ayam dan bumbu khas',
-        image: 'file:///C:/Users/Lenovo/Downloads/Merah%20dan%20Kuning%20Modern%20Nasi%20Goreng%20Promosi%20Instagram%20Post%20(7).jpg',
+        image: 'https://ibb.co.com/yKDsX5k',
         rating: 5.0
     },
     {
@@ -102,7 +102,7 @@ const products = [
         price: 25000,
         category: 'snack',
         description: 'Piscok Isi 10 Goreng dengan isian pisang dan cokelat yang melimpah',
-        image: 'file:///C:/Users/Lenovo/Downloads/Merah%20dan%20Kuning%20Modern%20Nasi%20Goreng%20Promosi%20Instagram%20Post%20(6).jpg',
+        image: 'https://ibb.co.com/MDwrMzjc',
         rating: 5.0
     },
     {
@@ -111,16 +111,16 @@ const products = [
         price: 45000,
         category: 'snack',
         description: 'Sosis solo Isi 10 Goreng dengan isian daging ayam dan bumbu khas',
-        image: 'file:///C:/Users/Lenovo/Downloads/Merah%20dan%20Kuning%20Modern%20Nasi%20Goreng%20Promosi%20Instagram%20Post%20(7).jpg',
+        image: 'https://ibb.co.com/yKDsX5k',
         rating: 5.0
     },
     {
         id: 5,
-        name: 'sambal',
+        name: 'Sambal Goreng',
         price: 20000,
         category: 'lauk',
         description: 'Sambel lezat dengan cita rasa pedas dan gurih',
-        image: 'file:///C:/Users/Lenovo/Downloads/Merah%20dan%20Kuning%20Modern%20Nasi%20Goreng%20Promosi%20Instagram%20Post%20(1).jpg',
+        image: 'https://ibb.co.com/TMvCyrPp',
         rating: 5.0
     },
     {
@@ -129,7 +129,7 @@ const products = [
         price: 35000,
         category: 'lauk',
         description: 'Ayam goreng dengan bumbu lengkuas yang lezat',
-        image: 'file:///C:/Users/Lenovo/Downloads/Merah%20dan%20Kuning%20Modern%20Nasi%20Goreng%20Promosi%20Instagram%20Post%20(8).jpg',
+        image: 'https://ibb.co.com/svNM7KQS',
         rating: 5.0
     },
     {
@@ -138,7 +138,7 @@ const products = [
         price: 15000,
         category: 'lauk',
         description: 'Nasi goreng spesial dengan telur, ayam, dan sayuran pilihan',
-        image: 'file:///C:/Users/Lenovo/Downloads/Merah%20dan%20Kuning%20Modern%20Nasi%20Goreng%20Promosi%20Instagram%20Post.jpg',
+        image: 'https://ibb.co.com/CK4wm3Fw',
         rating: 5.0
     },
 ];
