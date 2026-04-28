@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="file:///C:/Users/Lenovo/Downloads/3G%20moms%20kitchen.png">
+    <title>3Gmoms Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">3Gmoms Kitchen</a>
+        </div>
+        
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html">Beranda</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a href="#layanan" class="dropdown-toggle">Shop</a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://shopee.co.id/universal-link/now-food/shop/22534968?deep_and_deferred=1&shareChannel=copy_link" target="_blank">Shoppe Food</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav-item">
+                <a href="products.html">Produk</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a href="#resources" class="dropdown-toggle">™️Medsos</a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://instagram.com/3gmomskitchen" target="_blank">™️Instragram</a></li>
+                    <li><a href="https://facebook.com/3grecep" target="_blank">™️Facebook</a></li>
+                    <li><a href="#" target="_blank">™️WA Chanel</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav-item">
+                <a href="https://wa.me/6282338516014" target="_blank">Kontak</a>
+            </li>
+        </ul>
+        
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+    
+<!-- HERO SECTION -->
+    <section class="hero">
+        <!-- HERO CAROUSEL (KIRI) -->
+        <div class="hero-carousel">
+            <div class="carousel-container" id="carouselContainer">
+                <!-- Gambar akan ditampilkan di sini -->
+            </div>
+            
+            <!-- Carousel Controls -->
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" onclick="prevSlide()">❮</button>
+                <button class="carousel-btn next" onclick="nextSlide()">❯</button>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators" id="carouselIndicators">
+                <!-- Dots akan ditampilkan di sini -->
+            </div>
+        </div>
+
+        <!-- HERO CONTENT (KANAN) -->
+        <div class="hero-content">
+            <h1>Selamat Datang di 3Gmoms Kitchen</h1>
+            <p>Makanan dan Snack Berkualitas Tinggi dan sehat</p>
+            <a href="products.html" class="btn btn-primary">Belanja Sekarang</a>
+        </div>
+    </section>
+
+    <!-- PRODUK TERBARU -->
+    <section class="featured-products">
+        <h2>Produk Pilihan</h2>
+        <div id="featured-items" class="products-grid">
+            <!-- Produk akan ditampilkan di sini -->
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Tentang Kami</h4>
+                <p>Toko online terpercaya menjual makanan dan snack berkualitas</p>
+            </div>
+            <div class="footer-section">
+                <h4>Kontak</h4>
+                <p>📞 <a href="https://wa.me/6282338516014" target="_blank">0823-3851-6014</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Ikuti Kami</h4>
+                <p>
+                    <a href="https://instagram.com/3gmomskitchen" target="_blank">📱 Instagram</a> |
+                    <a href="https://facebook.com/3grecep" target="_blank">📘 Facebook</a> |
+                    <a href="https://wa.me/6282338516014" target="_blank">💬 WhatsApp</a>
+                </p>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2026 3Gmoms Kitchen. Semua hak dilindungi.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

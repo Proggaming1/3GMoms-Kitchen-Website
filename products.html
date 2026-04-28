@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="file:///C:/Users/Lenovo/Downloads/3G%20moms%20kitchen.png">
+    <title>3Gmoms Kitchen Produk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="index.html">3Gmoms Kitchen</a>
+        </div>
+        
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html">Beranda</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a href="#layanan" class="dropdown-toggle">Shop</a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://shopee.co.id/universal-link/now-food/shop/22534968?deep_and_deferred=1&shareChannel=copy_link" target="_blank">Shoppe Food</a></li>
+                    <li><a href="#app-dev">Coming Soon</a></li>
+                    <li><a href="#seo">Coming Soon</a></li>
+                    <li><a href="#hosting">Coming Soon</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav-item">
+                <a href="products.html">Produk</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a href="#resources" class="dropdown-toggle">™️Medsos</a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://instagram.com/3gmomskitchen" target="_blank">™️Instragram</a></li>
+                    <li><a href="https://facebook.com/3grecep" target="_blank">™️Facebook</a></li>
+                    <li><a href="#" target="_blank">™️WA Chanel</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav-item">
+                <a href="https://wa.me/6282338516014" target="_blank">Kontak</a>
+            </li>
+        </ul>
+        
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+    
+        <!-- SEARCH & FILTER -->
+    <section class="products-section">
+        <div class="products-header">
+            <h1>Daftar Produk</h1>
+            
+            <div class="search-filter">
+                <input type="text" id="search-input" placeholder="🔍 Cari produk..." class="search-box">
+                
+                <select id="category-filter" class="filter-select">
+                    <option value="">Semua Kategori</option>
+                    <option value="lauk">🍖 Lauk Pauk</option>
+                    <option value="snack">🍟 Snack</option>
+                    <option value="minuman">🥤 Minuman</option>
+                </select>
+
+                <select id="sort-select" class="filter-select">
+                    <option value="default">Urutkan</option>
+                    <option value="price-low">Harga Terendah</option>
+                    <option value="price-high">Harga Tertinggi</option>
+                    <option value="name">Nama (A-Z)</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- PRODUK GRID -->
+        <div id="products-grid" class="products-grid">
+            <!-- Produk akan ditampilkan di sini -->
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Tentang Kami</h4>
+                <p>Toko online terpercaya menjual makanan dan snack berkualitas</p>
+            </div>
+            <div class="footer-section">
+                <h4>Kontak</h4>
+                <p>📞 <a href="https://wa.me/6282338516014" target="_blank">0823-3851-6014</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Ikuti Kami</h4>
+                <p>
+                    <a href="https://instagram.com/3gmomskitchen" target="_blank">📱 Instagram</a>
+                </p>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2026 3Grecep Store. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>
